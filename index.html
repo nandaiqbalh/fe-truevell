@@ -8,7 +8,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="frontend/styles/main.css" />
-    <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Volkhov&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +20,8 @@
     <!-- Bootstrap navbar example -->
     <!-- https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
     <div class="container">
-        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="row navbar navbar-expand-lg navbar-light"
+            style="border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;">
             <a class="navbar-brand" href="#">
                 <img src="frontend/images/logo.png" alt="" />
             </a>
@@ -53,13 +56,13 @@
 
                 <!-- Mobile button -->
                 <form class="form-inline d-sm-block d-md-none">
-                    <button class="btn btn-login my-2 my-sm-0">
+                    <button class="btn btn-login">
                         Sign In
                     </button>
                 </form>
                 <!-- Desktop Button -->
                 <form class="form-inline my-2 my-lg-0 d-none d-md-block">
-                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                    <button class="btn btn-login">
                         Sign In
                     </button>
                 </form>

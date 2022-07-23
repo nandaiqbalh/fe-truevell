@@ -175,3 +175,26 @@ header {
         }
     }
 }
+
+// section networks
+.section-networks {
+    background-color: #fff;
+    margin-top: -170px;
+    padding-top: 240px;
+    padding-bottom: 50px;
+
+    h2 {
+        font-family: "Volkhov", serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    p {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}

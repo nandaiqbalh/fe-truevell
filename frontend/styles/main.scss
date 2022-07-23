@@ -41,3 +41,42 @@ body {
         color: #fff;
     }
 }
+
+// Header
+header {
+    // 180 atas, 0 kiri kanan, 165 bawah
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+
+    h1,
+    p {
+        color: #181E4B;
+    }
+
+    h1 {
+        font-family: "Volkhov",
+            serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .btn-get-started {
+        background-color: #F0A400;
+        color: #fff;
+        font-weight: bold;
+
+        &:hover {
+            background-color: #F2A500;
+            color: #fff;
+            font-weight: bold;
+
+        }
+    }
+
+}

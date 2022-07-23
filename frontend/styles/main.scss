@@ -80,3 +80,29 @@ header {
     }
 
 }
+
+// statistics
+.section-stats {
+    margin-top: -50px;
+    background-color: #181E4B;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: center;
+
+    .stats-detail {
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}

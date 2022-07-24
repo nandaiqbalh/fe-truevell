@@ -56,12 +56,10 @@ header p {
 header .btn-get-started {
   background-color: #F0A400;
   color: #fff;
-  font-weight: bold;
 }
 header .btn-get-started:hover {
-  background-color: #F2A500;
+  background-color: #FFCB5A;
   color: #fff;
-  font-weight: bold;
 }
 
 .section-stats {
@@ -133,9 +131,8 @@ header .btn-get-started:hover {
   color: #fff;
 }
 .section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
-  background-color: #F2A500;
+  background-color: #FFCB5A;
   color: #fff;
-  font-weight: bold;
 }
 
 .section-networks {
@@ -155,4 +152,72 @@ header .btn-get-started:hover {
 }
 .section-networks img {
   max-width: 100%;
+}
+
+.section-testimonial-heading {
+  background-color: #FFF1DA;
+  padding-top: 50px;
+  min-height: 506px;
+}
+.section-testimonial-heading h2,
+.section-testimonial-heading p {
+  color: #181E4B;
+}
+.section-testimonial-heading h2 {
+  font-family: "Volkhov", serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.section-testimonial-heading p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+.section-testimonial-content .card-testimonial h3 {
+  padding-top: 20px;
+  font-weight: bolder;
+  color: #181E4B;
+}
+.section-testimonial-content .card-testimonial .testimonial {
+  font-size: 18px;
+  color: #1D287D;
+  min-height: 150px;
+}
+.section-testimonial-content .card-testimonial .trip-to {
+  font-weight: normal;
+  color: #181E4B;
+}
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+  background-color: #FFF1DA;
+}
+.section-testimonial-content .btn-need-help {
+  background-color: #DF6951;
+  color: #fff;
+}
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #FF9580;
+  color: #fff;
+}
+.section-testimonial-content .btn-get-started {
+  background-color: #F0A400;
+  color: #fff;
+}
+.section-testimonial-content .btn-get-started:hover {
+  background-color: #FFCB5A;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

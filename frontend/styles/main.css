@@ -347,7 +347,6 @@ header .btn-get-started:hover {
   float: left;
 }
 .section-details-content .bank .bank-item .description p {
-  font-family: Assistant;
   font-weight: normal;
   font-size: 16px;
   text-align: left;
@@ -378,4 +377,26 @@ header .btn-get-started:hover {
 }
 .section-details-content .gj-datepicker .input-group-append .btn {
   padding-right: 30px;
+}
+
+.section-success {
+  height: 90vh;
+}
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #181E4B;
+}
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background: #181E4B;
+  color: #fff;
+}
+.section-success .btn-home-page:hover {
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */

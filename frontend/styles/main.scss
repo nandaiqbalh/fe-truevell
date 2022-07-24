@@ -444,7 +444,6 @@ header {
                 float: left;
 
                 p {
-                    font-family: Assistant;
                     font-weight: normal;
                     font-size: 16px;
                     text-align: left;
@@ -490,5 +489,31 @@ header {
             }
         }
 
+    }
+}
+
+.section-success {
+    height: 90vh;
+
+    h1 {
+        font-weight: 600;
+        font-size: 26px;
+        color: #181E4B;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 18px;
+        color: #b1b1b1;
+    }
+
+    .btn-home-page {
+        border-radius: 4px;
+        background: #181E4B;
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+        }
     }
 }
